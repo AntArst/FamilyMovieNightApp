@@ -339,7 +339,7 @@ router
       ctx.response.body = result;
     } catch (error) {
       ctx.response.status = 500;
-      ctx.response.body = { error: error.message };
+      ctx.response.body = { error: (error as Error).message };
     }
   })
   .post("/api/reset", async (ctx) => {
@@ -354,7 +354,7 @@ router
       ctx.response.body = { success: true };
     } catch (error) {
       ctx.response.status = 500;
-      ctx.response.body = { error: error.message };
+      ctx.response.body = { error: (error as Error).message };
     }
   })
   .get("/api/movies", (ctx) => {
