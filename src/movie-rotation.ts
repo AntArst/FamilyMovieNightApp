@@ -12,15 +12,24 @@ type MovieSelection = {
 };
 
 export const moviesByBlock: MovieBlock = {
+  "Pre-1980": [
+    "Paper Moon (1973)",
+    "The Deer Hunter (1978)",
+    "The Gods Must Be Crazy (1980)"
+  ],
   "1980-1984": [
     "The Shining (1980)",
     "Blade Runner (1982)",
     "The Thing (1982)",
     "Videodrome (1983)",
-    "This Is Spinal Tap (1984)"
+    "This Is Spinal Tap (1984)",
+    "The NeverEnding Story (1984)"
   ],
   "1985-1989": [
     "Brazil (1985)",
+    "St. Elmo's Fire (1985)",
+    "Mr. Holland's Opus (1985)",
+    "The Color Purple (1985)",
     "Big Trouble in Little China (1986)",
     "Evil Dead II (1987)",
     "Withnail & I (1987)",
@@ -34,6 +43,9 @@ export const moviesByBlock: MovieBlock = {
     "Clerks (1994)"
   ],
   "1995-1999": [
+    "12 Monkeys (1995)",
+    "Powder (1995)",
+    "Red Rock West (1996)",
     "The Big Lebowski (1998)",
     "Fight Club (1999)",
     "Office Space (1999)",
@@ -51,6 +63,7 @@ export const moviesByBlock: MovieBlock = {
     "Pan's Labyrinth (2006)",
     "Hot Fuzz (2007)",
     "The Fountain (2006)",
+    "The Men Who Stare at Goats (2009)",
     "Moon (2009)",
     "District 9 (2009)"
   ],
