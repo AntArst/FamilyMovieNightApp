@@ -115,3 +115,53 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 Remember: The best movie experiences are shared experiences. Happy watching! 🍿
+
+## Compilation
+
+You can compile the application to a standalone binary for easier distribution and execution.
+
+### Quick Compilation (Current Platform)
+
+```bash
+# Make the compilation script executable
+chmod +x compile.sh
+
+# Compile for your current platform
+./compile.sh
+```
+
+### Cross-Platform Compilation
+
+Compile for a specific platform:
+```bash
+./compile.sh linux    # For Linux
+./compile.sh macos    # For macOS
+./compile.sh windows  # For Windows
+./compile.sh all      # For all platforms
+```
+
+The compiled binaries will be placed in the `build` directory with platform-specific names:
+- `build/family-movie-roulette-linux`
+- `build/family-movie-roulette-macos`
+- `build/family-movie-roulette-windows.exe`
+
+### Running the Compiled Binary
+
+Linux/macOS:
+```bash
+./build/family-movie-roulette-linux  # For Linux
+./build/family-movie-roulette-macos  # For macOS
+```
+
+Windows:
+```cmd
+build\family-movie-roulette-windows.exe
+```
+
+The application will start and be accessible at `http://localhost:8000`
+
+### Notes
+
+- The compiled binary includes all necessary dependencies
+- No need to install Deno on the target machine
+- Data files (`decade_counts.json` and `movie_counts.json`) will be created in the same directory as the binary
