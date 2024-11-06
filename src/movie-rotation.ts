@@ -79,7 +79,7 @@ export const moviesByBlock: MovieBlock = {
     "Mad Max: Fury Road (2015)",
     "Annihilation (2018)",
     "Sorry to Bother You (2018)",
-    "Midsommar (2019)"
+    "Midsommar (2019) **Lauren Trauma Warning**"
   ],
   "2020-2023": [
     "Everything Everywhere All at Once (2022)",
