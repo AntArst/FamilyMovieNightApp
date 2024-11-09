@@ -37,6 +37,7 @@ export const moviesByBlock: MovieBlock = {
   ],
   "1990-1994": [
     "Twin Peaks: Fire Walk with Me (1992)",
+    "I love you to death (1990)",
     "Army of Darkness (1992)",
     "The Nightmare Before Christmas (1993)",
     "Dazed and Confused (1993)",
